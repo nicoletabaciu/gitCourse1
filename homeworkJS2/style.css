@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted grey;
+}
+
+#showC{
+    display: none;
+}
+
+body{
+    border: 2px solid black;
+    width: 800px;
+    margin:auto;
+}
+
+section{
+    padding: 15px;
+    display:flex;
+    flex-direction: row;
+}
+
+.left-section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+input[type=text]{
+    width: 100%;
+    border:1px solid black;
+    padding:7px;
+}
+
+h3{
+    width:50%;
+}
+
+input[type=radio]{
+    width: 5%;
+    border:1px solid black;
+}
+label{
+    width:50%;
+}
+
+#text-area{
+    width: 100%;
+    border:1px solid black;
+    padding:7px;
+}
+
+#Submit{
+    width: 50px;
+}
+
+img{
+    width:80%;
+    height: 80%;
+    padding:30px;
+  float:right;
+}
+
