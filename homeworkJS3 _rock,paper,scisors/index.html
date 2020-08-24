@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Game</title>
+</head>
+
+<body>
+    <header>
+        <h2>Rock, Paper, Scissors</h2>
+    </header>
+
+    <main class="main">
+
+        <section class="left_section">
+            <article>
+                <h3>User Option</h3>
+                <button onClick="showUserChoice(0)">Rock</button>
+                <button onClick="showUserChoice(1)">Paper</button>
+                <button onClick="showUserChoice(2)">Scissors</button>
+
+            </article>
+            <article id="userChoice1">
+                <i style='font-size:40px' class='far'>&#xf255;</i>
+            </article>
+            <article id="userChoice2">
+                <i style='font-size:40px' class='fas'>&#xf256;</i>
+            </article>
+            <article id="userChoice3">
+                <i style='font-size:40px' class='fas'>&#xf257;</i>
+            </article>
+            <br>
+            <article>
+                <button id="OnClick">ClickMe</button>
+            </article>
+        </section>
+
+        <section class="right_section">
+            <article>
+                <h3>Computer Option</h3>
+            </article>
+            <article id="computerChoice1">
+                <i style='font-size:40px' class='far'>&#xf255;</i>
+            </article>
+            <article id="computerChoice2">
+                <i style='font-size:40px' class='fas'>&#xf256;</i>
+            </article>
+            <article id="computerChoice3">
+                <i style='font-size:40px' class='fas'>&#xf257;</i>
+            </article>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>

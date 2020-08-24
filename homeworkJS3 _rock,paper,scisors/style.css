@@ -1,0 +1,33 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted grey;
+}
+body{
+    border: 2px solid black;
+    width: 60%;
+    margin:auto;
+}
+.main{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_section{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.right_section{
+    width:50%;
+  
+}
+#userChoice1,#userChoice2,#userChoice3{
+    display: none;
+}
+#computerChoice1,#computerChoice2,#computerChoice3{
+    display: none;
+}
